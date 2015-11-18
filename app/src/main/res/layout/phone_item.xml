@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ImageView  android:src="@mipmap/ic_launcher"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:id="@+id/ivPhoto"
+        />
+       <View android:layout_width="match_parent" 
+           android:background="#ECEAEA"
+           android:layout_height="30dp"/>
+    <LinearLayout    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#5E5D5D"
+    android:orientation="vertical"
+     android:padding="5dp" >
+        <TextView android:id="@+id/tvTitle" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="力士德二手机无底价拍卖"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+          
+            />
+        <View android:layout_width="match_parent" android:layout_height="10dp"/>
+        <TextView android:id="@+id/tvContent"
+               android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+            android:text="3月8日，力士德携手易极拍卖于临沭县力士德工厂南厂区举办了力士德专场无底价二手机拍卖会。这既是力士德全国首场拍卖会，亦是易极羊年开春第一拍，来自全国各地的700余位新老客户齐聚会场参与竞拍。"
+            />
+            
+            
+       
+    </LinearLayout>
+
+</LinearLayout>

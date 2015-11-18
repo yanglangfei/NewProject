@@ -24,4 +24,7 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.1.0'
     compile 'com.android.support:design:23.1.0'
+    compile files('libs/universal-image-loader-1.9.4.jar')
+    compile files('libs/xUtils-2.6.14.jar')
+    compile 'io.realm:realm-android:0.84.1'
 }

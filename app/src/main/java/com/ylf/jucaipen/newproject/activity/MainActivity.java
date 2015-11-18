@@ -1,4 +1,4 @@
-package com.ylf.jucaipen.newproject;
+package com.ylf.jucaipen.newproject.activity;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -12,6 +12,8 @@ import android.view.ViewStub;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import com.ylf.jucaipen.newproject.R;
 
 public class MainActivity extends AppCompatActivity {
     private ViewStub show;
